@@ -1,0 +1,11 @@
+Find the product with a row id of 10
+
+db.Data.find({ id: "10" })
+
+{
+  "id": "10",
+  "product_name": "Generic Wooden Pizza",
+  "product_price": 84.00,
+  "product_material": "Frozen",
+  "product_color": "indigo"
+}

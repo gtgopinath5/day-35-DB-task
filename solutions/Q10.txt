@@ -1,0 +1,7 @@
+Delete the products where the product price value is 28
+
+Data> db.Data.deleteMany({
+...   product_price: 28.00
+... })
+
+{ acknowledged: true, deletedCount: 1 }

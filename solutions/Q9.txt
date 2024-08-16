@@ -1,0 +1,3 @@
+Find products which contain product color indigo  and product price 492.00
+
+Data> db.Data.find({ product_color: "indigo", product_price: 492.00 })
